@@ -1,0 +1,14 @@
+h1{
+    height: 20;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(120, 159, 159);
+}
+form{
+    display: inline-block;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
