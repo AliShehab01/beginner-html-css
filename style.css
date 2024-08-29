@@ -1,14 +1,20 @@
-h1{
-    height: 20;
-    color: rgb(0, 0, 0);
-}
-body{
-    background-color: rgb(120, 159, 159);
-}
-form{
-    display: inline-block;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
+html {
+    background-color: #00539f;
+  }
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;  /* 1 */
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;  /* 2 */
+  }
+  h1 {
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+  img {  /* 3 */
+    display: block;
+    margin: 0 auto;
+  }
